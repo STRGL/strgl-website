@@ -1,0 +1,31 @@
+header.banner {
+
+    height: 80px;
+    background-color: $white;
+    width: 100%;
+    line-height: 80px;
+   
+    div.container {
+
+        ul {
+            display: inline-block;
+            margin-left: 20px;
+        }
+   
+        ul li {
+            display: inline;
+            text-transform: uppercase;
+            margin-left: 20px;
+        }
+
+        .mainNav li:first-child {
+            margin-left: 0;
+        }
+        
+        .siteTitle {
+            font-size: 20px;
+            display: inline-block;
+            padding: 0 20px;
+        }
+    }
+}
